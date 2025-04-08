@@ -1,0 +1,50 @@
+/*DARK MODE*/
+
+body.active .container{
+    background: var(--darkGradient);
+}
+
+body.active h1{
+    color: var(--neutral0);
+}
+
+body.active .bar{
+    background-color: var(--neutral800);
+}
+
+body.active .bar__logo  img{
+    
+}
+
+body.active .bar .bar__color{
+    background-color: var(--neutral700);
+}
+
+body.active .filter{
+    color: var(--neutral0);
+    background-color: var(--neutral700);
+    border-color: var(--neutral600);
+}
+
+body.active .extension{
+    background-color: var(--neutral800);
+    border: 1px solid var(--neutral600);
+}
+
+body.active .extension h4{
+    color: var(--neutral0);
+}
+
+body.active .extension .description{
+    color: var(--neutral300);
+}
+
+body.active .remove{
+    color: var(--neutral0);
+    background-color: transparent;
+    border-color: var(--neutral600);
+}
+
+body.active .toggle-extension{
+    background-color: var(--neutral600);
+}
